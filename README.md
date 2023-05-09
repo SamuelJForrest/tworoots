@@ -1,10 +1,18 @@
 # TwoRoots
 
 ```
-TODO: Add TwoRoots Bio
+TODO: Add TwoRoots Bio (including image)
 ```
 
 ## Table of Contents
+
+```
+@TODO: Add ToC
+```
+
+## Change Log
+
+Change log can be found [here](/docs/change_log.md)
 
 ## Environment Setup
 
@@ -15,7 +23,7 @@ TODO: Add TwoRoots Bio
 - Commands to start project (makemigrations, migrate, runserver)
 ```
 
-## Technologies used
+## Technologies Used
 
 ### Languages
 

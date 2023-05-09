@@ -23,6 +23,12 @@ Change log can be found [here](/docs/change_log.md)
 - Commands to start project (makemigrations, migrate, runserver)
 ```
 
+## GIT Conventions
+
+```
+@TODO: Add explanation of how the branches are setup (naming conventions, merging, etc).
+```
+
 ## Technologies Used
 
 ### Languages

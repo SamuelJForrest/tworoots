@@ -1,0 +1,116 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+/* COLORS */
+/* line 1, tworoots/static/css/core/_reset.scss */
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+/* line 7, tworoots/static/css/core/_reset.scss */
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none; }
+
+/* line 69, tworoots/static/css/core/_reset.scss */
+footer,
+header,
+nav,
+section,
+main {
+  display: block; }
+
+/* line 77, tworoots/static/css/core/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 81, tworoots/static/css/core/_reset.scss */
+ol,
+ul {
+  list-style: none; }
+
+/* line 86, tworoots/static/css/core/_reset.scss */
+blockquote,
+q {
+  quotes: none; }
+
+/* line 91, tworoots/static/css/core/_reset.scss */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+/* line 99, tworoots/static/css/core/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 104, tworoots/static/css/core/_reset.scss */
+input {
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+/* line 4, tworoots/static/css/tworoots.scss */
+h1 {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; }

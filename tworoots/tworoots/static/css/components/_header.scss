@@ -1,0 +1,15 @@
+.header {
+	background: $primary-120;
+
+	&-logo {
+		font-size: rem(40);
+		color: $light-100;
+		font-weight: $bold;
+		text-decoration: none;
+
+		&:hover,
+		&:focus {
+			color: $light-100;
+		}
+	}
+}

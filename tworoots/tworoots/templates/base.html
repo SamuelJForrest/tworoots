@@ -34,8 +34,8 @@
         {# Override this in templates to add extra stylesheets #}
         {% endblock %}
     </head>
-    <header>
-        {% block header %}{% endblock %}
+    <header class="header">
+        {% include 'includes/header.html' %}
     </header>
 
     <body class="{% block body_class %}{% endblock %}">

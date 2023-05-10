@@ -1,6 +1,4 @@
 /* FONTS */
-
-// fonts import
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 // font families
@@ -35,3 +33,10 @@ $light-140: #cecece;
 $light-120: #e1e1e1;
 $light-100: #fcfcfc;
 $dark-100: #081c15;
+
+/* BREAKPOINTS */
+$xs: 575px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;

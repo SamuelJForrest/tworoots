@@ -1,2 +1,3 @@
+@import "./reset"; // keep reset first, as it may clash with stylings
 @import "./config";
-@import "./reset";
+@import "./global";

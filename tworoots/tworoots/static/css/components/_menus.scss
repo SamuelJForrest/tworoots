@@ -1,0 +1,95 @@
+.nav {
+	> ul {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		width: 100%;
+
+		// menu item
+		li.menu-item {
+			position: relative;
+
+			&:hover,
+			&:focus {
+				> a {
+					color: $accent-100;
+
+					&::after {
+						width: 100%;
+					}
+				}
+			}
+
+			a {
+				font-size: rem(20);
+				font-family: $title-font;
+				color: $light-100;
+				text-decoration: none;
+				transition: all 0.3s;
+
+				@media screen and (min-width: $lg) {
+					padding: 40px 20px;
+
+					&::after {
+						content: "";
+						position: absolute;
+						bottom: 0;
+						left: 0;
+						width: 0;
+						height: 4px;
+						background: $accent-100;
+						transition: all 0.3s;
+					}
+				}
+			}
+		}
+
+		// menu item with children
+		.menu-item-has-children {
+			&:hover,
+			&:focus {
+				> ul {
+					height: auto;
+					box-shadow: 0 4px 10px 4px rgba(#1e1e1e, 0.25);
+				}
+			}
+
+			> ul {
+				position: absolute;
+				bottom: 0;
+				transform: translateY(100%);
+				width: 300px;
+				border-radius: 0 0 8px 8px;
+				height: 0;
+				overflow: hidden;
+
+				> li.menu-item {
+					&:hover,
+					&:focus {
+						> a {
+							background: $accent-80;
+							padding-left: 36px;
+
+							&::after {
+								width: 10px;
+							}
+						}
+					}
+
+					> a {
+						font-size: rem(16);
+						padding: 16px 24px;
+						color: $dark-100;
+
+						&::after {
+							width: 0;
+							height: 100%;
+							top: 0;
+							bottom: auto;
+						}
+					}
+				}
+			}
+		}
+	}
+}
